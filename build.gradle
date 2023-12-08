@@ -1,0 +1,18 @@
+plugins {
+    id 'java'
+    id 'application' // 이 줄을 추가합니다.
+}
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation 'commons-io:commons-io:2.11.0' // Apache Commons IO 라이브러리
+    implementation 'org.bouncycastle:bcprov-jdk15on:1.70'
+    implementation 'org.json:json:20210307'
+}
+
+application {
+    mainClassName = 'Hometax'
+}

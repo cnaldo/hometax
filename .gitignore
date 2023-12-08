@@ -1,0 +1,7 @@
+*.der
+*.key
+.DS_Store
+*.bak
+.*
+!.gitignore
+build
